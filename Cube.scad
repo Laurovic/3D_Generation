@@ -12,7 +12,7 @@ difference(){
 
 difference(){
     translate([-hr, -hr, z]){
-        cube([x+hr*2, y+hr*2, 10], false);
+        cube([x+hr*2, y+hr*2, 8+hr], false);
     };
     translate([0, 0, z-hr]){
         cube([x, y, 8], false);
